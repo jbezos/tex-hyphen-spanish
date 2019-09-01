@@ -1,0 +1,84 @@
+% (c) Javier Bezos 2019
+% License: MIT.
+
+% Requires luatex >= 1.10
+
+\documentclass{article}
+
+% ==========
+
+% \def\filter{trans[aeiou]}
+% \def\filter{^ps}
+\def\filter{s$}
+
+% ==========
+
+\newlanguage\left
+\language\left
+\righthyphenmin1
+\lefthyphenmin1
+
+\input{hyph-es.tex}
+
+\newlanguage\right
+\language\right
+\righthyphenmin1
+\lefthyphenmin1
+
+\input{hyphen-es-base.tex}
+%\input{hyphen-es-rla.tex}
+
+% ==========
+
+\directlua{
+  function test (head)
+    lang.hyphenate(head)
+    texio.write_nl('====')
+    texio.write_nl('')
+    local right = ''
+    local left = ''
+    for item in node.traverse(head) do
+      if item.id == node.id'glyph' then
+        right = right .. unicode.utf8.char(item.char)
+      elseif item.id == node.id'glue' then
+        left = right
+        right = ''
+      elseif item.id == node.id'disc' then
+        right = right .. '-'
+      end
+    end
+    if left == right then
+      % texio.write('== ' .. left .. '   ' .. right)
+    else
+      texio.write('<> ' .. left .. '   ' .. right)
+    end
+    return head
+  end
+  luatexbase.add_to_callback('hyphenate',
+  test,
+  'Hyphen.hyphenate')
+  }
+
+\begin{document}
+
+\def\p#1{%
+  \setbox0\vbox{%
+    \language\left#1%
+    \hskip1em
+    \language\right#1}}
+
+\message{^^J*******************^^J}
+
+\directlua{
+  local words = io.open('spanish-words.txt')
+  for w in words:lines() do
+    if w:find('\filter') then
+      tex.print('\string\\p{' .. w .. '}')
+    end
+  end
+  words:close()}
+  
+\message{^^J*******************^^J}
+
+\end{document}
+
