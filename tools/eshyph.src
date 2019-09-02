@@ -175,14 +175,11 @@ e5r4a3dor. e5r4a3dora. e5r4a3dores. e5r4a3doras.
 % Prefijos y elementos iniciales
 % ==============================
 %
-% Etimológicos
-.al4h al4haj
-ad4he ad4hi ad4ho
-an4he anhé an4hi an4hí ad4ho
-bon4ho
-4r4h
+% Con prefijos damos por hecho que Xh se divide siempre. Estas
+% combinaciones sin división apenas se dan mas que en voces de origen
+% latino, o de nombres propios modernos, es decir, una cantidad
+% limitada y poco abierta, así que entrarían como excepciones.
 %
-% Productivos
 /acto/                   % (gal)acto, (l)acto
 /aero/
 /afro/
@@ -195,7 +192,6 @@ ana3lí
 .an3aero
 .an3e2pigr
 .ane3xa .ane3xá .ane3xe .ane3xé .ane3xio .ane3xió
-.an3h
 .ani3mad .ani3mád
 .ani3dar
 .ani3ll
@@ -231,6 +227,7 @@ mante4a
 e4a3miento
 e4ándo
 tras3antea
+2huelo. 2huela. 2huelos. 2huelas. 
 /.anti/
 ti2o3qu ti2o3co 
 /archi/
@@ -262,6 +259,7 @@ o4i3dea. o4i3deas. o4i3dal. o4i3dales.
 /cito/
 /cnico/                  % (té)cnico
 %?.co?
+.co1h
 .co2a2 .co2e2 .co2i2 .co3o4 .co2u2      % Note coo
 .co2á2 .co2é2 .co2í2 .co2ó2 .co2ú2
 .co3acree
@@ -277,6 +275,8 @@ o4i3dea. o4i3deas. o4i3dal. o4i3dales.
 .co3efici
 .coe3tá
 .co3exis
+.co6hib
+.co4het
 .co3imput
 .coi3to
 .co4o3per
@@ -287,6 +287,7 @@ o4i3dea. o4i3deas. o4i3dal. o4i3dales.
 .co4opt
 .co4ópt
 .co2nurb 
+cou3lomb
 /cripto/
 /crono/
 /contra/                 % -aer =
@@ -295,7 +296,7 @@ o4i3dea. o4i3deas. o4i3dal. o4i3dales.
 4é3dricas.
 4í3ble. 4í3bles.
 /.de2s/
-des1h
+%%%%%%%%%%%%% des1h
 deca2i3mient
 3sa. 3sas.
 *órde
@@ -548,7 +549,7 @@ de3su3dar de3su3das de3su3dan
 ini3ci
 iní3ci
 de3s4integr
-de3s4inter
+de3s4inter  %%%%%%%%%%%%%%%%%%%%
 *intox
 *inver
 de3sisten
@@ -583,7 +584,7 @@ de3s4oseg
 /eco/
 /ectro/                  % (esp)ectro, (el)ectro
 /.e2n2/
-.en1h
+%%%%%%%%%%%%%%%%%% .en1h
 .ene3mist .ene3míst
 .eno3jar
 .enu3mera .enu3merá
@@ -602,7 +603,7 @@ en1hebr
 /euco/                   % (l)euco
 /euro/                   % euro, (n)euro
 /.e2x2/
-.ex1h
+%%%%%%%%%%%%%%%%% .ex1h
 .ex2hal .ex2hál
 .ex2haus
 .ex2hib .ex2híb
@@ -659,11 +660,13 @@ u4teri
 /helio/ 
 /hemato/ 
 /hemi/
+hemio3la. hemio3las. 
 /hemo/
 2al. 2ales.
 .hepta1e
 /hexa/ 
 /hidro/ 
+% ===
 /hiper/
 pe3r4e3mia
 hipe3r4i3cíne
@@ -678,7 +681,7 @@ hipe3r4o3xia
 /ibero/
 /icono/
 /.i2n2/
-.in1h
+%%%%%%%%%%%%%%% .in1h
 in4hib in4híb
 in4hal in4hál
 in4hest in4hést
@@ -709,6 +712,7 @@ in4hesi
 .in3efici
 .in3eludi
 .ine3narr
+.in3exact
 ini3cia iní3cia ini3ciá ini3cie
 .rei3na
 re3ini3cia re3iní3cia re3ini3ciá re3ini3cie
@@ -918,7 +922,7 @@ su4d3oes
 .su2r1est
 .su2r1oes
 /super/                  % -ar
-super5h
+%% super5h
 ra5ra ra5rá ra5re ra5ré ra5rí ra5ro
 supe3r4a4r supe3r4á4r 
 supe3r4á3vit. supe3r4á3vits.
@@ -941,7 +945,7 @@ sup6ra %
 /tetra/
 /topo/
 /.tra2s/
-tras1h
+%%%%%%%%%%%%%% tras1h
 tras2hum
 % .tra2s1a2
 % .tra2s1o2

@@ -118,8 +118,14 @@ function prefix(p)
     patfile:write(p:sub(1,-2) .. '3r\n')
   elseif p:match('[aeiou]$') then
     p = p .. '1'
-    patfile:write(p .. 'h\n')
   end 
+  if not hyphen_silent then
+    if p:match('[123456789]$') then
+      patfile:write(p:sub(1,-2) .. '1h\n')
+    else
+      patfile:write(p .. '1h\n')
+    end
+  end
   patfile:write(p .. 'a2 ' .. p .. 'e2 ' .. p .. 'i2 ' .. p .. 'o2 ' .. p .. 'u2\n')
   patfile:write(p .. 'á2 ' .. p .. 'é2 ' .. p .. 'í2 ' .. p .. 'ó2 ' .. p .. 'ú2\n')
 end
