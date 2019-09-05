@@ -1,25 +1,26 @@
 # tex-hyphen-spanish
 
-**2019-08-30.** tools/eshyph-test.tex rewritten.
-
-**2019-09-01.** La RAE cambió la norma tradicional sobre las haches,
-  que básicamente consiste en que no se divide casi nunca ante ella (es
-  decir, Chihuahua o menhir son palabras indivisibles). Comienzo la
-  adaptación a la nueva norma (por absurda y inconveniente que pueda
-  resultar). Más adelante daré un archivo de excepciones con los casos
-  más importantes de la norma tradicional, seguida todavía a menudo.
-
 TeX hyphenation patterns for Spanish, v 4.8, development releases.
 
 Patrones de división de palabras en español para TeX y otros sistemas
 basados en el mismo algoritmo.
 
-Todavía estoy trabajando en la puesta en marcha de este repositorio,
-pero el archivo principal `tex/hyph-es.tex` está actualizado.
+**2019-08-30.** tools/eshyph-test.tex rewritten.
 
-Uno de los principios básicos es el de dividir siempre correctamente,
-aunque no incluya todas las posibles divisiones. Al menos en TeX, esta
-estrategia es más segura que la de permitir divisiones inválidas.
+**2019-09-01.** La RAE cambió la norma tradicional sobre las haches,
+  y la actual básicamente consiste en que no se divide casi nunca ante
+  ella (es decir, «chihuahua» o «menhir» son palabras indivisibles).
+  Comienzo la adaptación a la nueva norma (por inconveniente
+  que pueda resultar). Más adelante daré un archivo de excepciones con
+  los casos más importantes de la norma tradicional, seguida todavía a
+  menudo.
+**2019-09-04.** Comienzo a flexibilizar las particiones, ya que ahora,
+  en cierto número de casos, se pueden encontrar series de 6 caracteres
+  o más sin división («postureo» o «postillar», por ejemplo), lo que no
+  parece razonable desde el punto de vista práctico. Véase la
+  explicación más abajo sobre los principios de la división.
+  
+### Contenido
 
 * `doc/division.pdf` is a draft of an article (in Spanish) explaining
   the rules to be applied and how they are being translated into TeX in
@@ -28,9 +29,9 @@ estrategia es más segura que la de permitir divisiones inválidas.
   prefixes and special cases.
 * `tools/eshyph-test.tex` makes a comparison of two hyphenation rules.
   Use `hyphen-es-base.tex` for more or less strict syllabic rules. It
-  requires a file `spanish-words.txt` (not supplied, just a sample)
-  with a list of words, one per line. You can (should) filter the words.
-  Requires luatex 1.10.
+  requires a file `spanish-words.txt` with a list of words (a sample
+  with about 56 000 entries is supplied), one per line. You can
+  (should) filter the words. Requires luatex 1.10.
 
 Related project:
 * https://github.com/hyphenation/tex-hyphen
@@ -39,7 +40,21 @@ See also:
 * https://github.com/sbosio/rla-es/tree/master/separacion
 * https://ctan.org/pkg/mkpattern
 
-### Notas sobre la generación de los patrones
+### Principios básicos de la división
+
+Uno de los principios básicos es el de dividir siempre correctamente,
+aunque no incluya todas las posibles divisiones. Al menos en TeX, esta
+estrategia es más segura que la de permitir divisiones inválidas.
+
+No obstante, aunque siempre será mejor «porta-aeronave» (que es como, de
+hecho, se divide) que «portaae-ronave» (que es el criterio puramente
+«silábico»), este último no es de por sí incorrecto. Lo mismo se puede
+decir, por ejemplo, de «ex-enemigo» frente a «exe-nemigo». (Aunque de
+momento no hay nada implementado al respecto, es interesante señalar
+que con luatex es posible asignar diferentes penalizaciones o pesos en
+casos así.)
+
+### Generación de los patrones
 
 Los patrones se han creado mediante reglas y se han comprobado con un
 diccionario de unas 700 000 palabras. La generación de patrones no se
@@ -54,11 +69,15 @@ conjugaciones verbales, empleó 150 000 en sus primeras fases; para el
 checo se llegó a tomar como punto de partida ¡5 000 000!, aunque
 posteriormente se filtró con ciertas reglas para reducirlo a algo menos
 de 400 000. Tengo mis serias dudas de que se pueda conseguir nada con
-`patgen` que sea mínimimente aceptable con menos 200 000 palabras, y
-diccionarios así no existen en español, salvo algunos que se ha
+`patgen` que sea mínimamente aceptable con menos 200 000 palabras, y
+diccionarios así no existen en español, salvo algunos que se han
 generado automáticamente con reglas, por lo que su utilidad es escasa.
 
-En este momento, el archivo cuenta con unos 3700 patrones. Es posible
-que haya algunas redundacias, pero no tienen que ser muchas, y en
+En este momento, el archivo cuenta con unos 4600 patrones. Es posible
+que haya algunas redundancias, pero no tienen que ser muchas, y en
 cualquier caso una redundancia correcta no debe ser un problema. Como
 comparación, el ruso tiene unos 7200, y el francés unos 1400.
+
+No es el propósito de estos patrones el purismo. Por ello, la lista de
+palabras incluye cierto número de extranjerismos de uso común (e
+incluso algún que otro error frecuente), para tenerlos en cuenta.

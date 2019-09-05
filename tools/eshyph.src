@@ -180,40 +180,22 @@ e5r4a3dor. e5r4a3dora. e5r4a3dores. e5r4a3doras.
 % latino, o de nombres propios modernos, es decir, una cantidad
 % limitada y poco abierta, así que entrarían como excepciones.
 %
+.a2                      % a- (prevent)
+/.abre/
+/.acro/     %%
 /acto/                   % (gal)acto, (l)acto
+/adeno/    %%
+4i3ditis.
 /aero/
 /afro/
-.a2                      % a, an (prevent)
-.an2a2 .an2e2 .an2i2 .an2o2 .an2u2
-.an2á2 .an2é2 .an2í2 .an2ó2 .an2ú2.
-ana3lí
-.aná3li
-.ana3li
-.an3aero
+/agro/     %%
+% /an/                   % No realmente productivo, solo especiales
 .an3e2pigr
-.ane3xa .ane3xá .ane3xe .ane3xé .ane3xio .ane3xió
-.ani3mad .ani3mád
-.ani3dar
-.ani3ll
-.ani3m
-.aniña
-.ani3q
-.an3i2so .an3i2só
-.ani3vel
-.ano5che
-.ano5din
-.ano5mal
-.ano5nad
-.anó3nim
-.anó5mal
-.ano5nim
-.ano5ta .ano3tá
-.anua3l
-.anua4lm
-.anu3bl
-.anu3da
-.anu3l
-asu3b2 
+.an3a2lcoh
+.an3amnio
+.an3i4so .an3i4só
+.an3aero
+/andro/    %%
 /anfi/
 /anglo/
 /ante/
@@ -229,8 +211,12 @@ e4ándo
 tras3antea
 2huelo. 2huela. 2huelos. 2huelas. 
 /.anti/
+/apico/    %%
 ti2o3qu ti2o3co 
 /archi/
+/.atto/     %%
+/audio/    %%
+/austro/   %%
 /auto/
 .bi1anual
 .bi1aur
@@ -248,15 +234,22 @@ b4ien3do. .su3b4ien b4ien3das.
 .bie4n3o4lie
 /bio/
 bi1u2ní 
+/busca/
 /cardio/
 /cefalo/
 /centi/
+% /cian/     %%
+cian1h
+/ciano/    %%
+/ciber/    %%
 centi5área 
 /ciclo/
 o4i3dea. o4i3deas. o4i3dal. o4i3dales. 
 4o2i3de. 4o2i3des.  4i2dal. 4i2dales.
 4i3deo. 4i3deos. 
+% /.cis/      %%
 /cito/
+/clepto/   %%
 /cnico/                  % (té)cnico
 %?.co?
 .co1h
@@ -288,13 +281,22 @@ o4i3dea. o4i3deas. o4i3dal. o4i3dales.
 .co4ópt
 .co2nurb 
 cou3lomb
+/corta/
+/cosmo/    %%
+/crio/     %%
 /cripto/
 /crono/
 /contra/                 % -aer =
+% /cuadri/   %%
+/cuadru/   %%
+/cuasi/    %%
 /deca/                   % deca, (en)deca, (do)deca, -aer
 4e3dro. 4e3dros. 4é3drico. 4é3dricos. 4é3drica. 
 4é3dricas.
 4í3ble. 4í3bles.
+/dento/    %%
+/dermato/  %%
+/dermo/    %%
 /.de2s/
 %%%%%%%%%%%%% des1h
 deca2i3mient
@@ -582,6 +584,7 @@ de3s4oseg
 .diecio2 
 /ecano/                  % (m)ecano
 /eco/
+/ecto/     %%            % + (l)ecto
 /ectro/                  % (esp)ectro, (el)ectro
 /.e2n2/
 %%%%%%%%%%%%%%%%%% .en1h
@@ -598,8 +601,13 @@ en1hebr
 4o3lógicamente. 4o3logía. 4o3logías.
 4ó3logo. 4ó3loga. 4ó3logos. 4ó3logas. 
 /endo/
+/enea/     %%
+/entero/   %%
 /ento/                   % (ci)ento
 /entre/
+/esclero/  %%
+/estereo/  %%
+/etno/     %%
 /euco/                   % (l)euco
 /euro/                   % euro, (n)euro
 /.e2x2/
@@ -650,23 +658,38 @@ exu3dac
 u4teri
 .cau5t
 .deu5t
+/femto/    %%
+/ferro/    %%
+/filo/     %%
+/fisio/    %%
+/fito/     %%
 /fono/ 
 /foto/ 
+/galo/     %%
+/gastero/  %%
 /gastro/ 
 /geo/
+/geronto/  %%
+/gineco/   %%
 /giga/
 /gluco/
+/grafo/    %%
+/guarda/
+/halo/     %%
 /hecto/ 
+/helico/   %%
 /helio/ 
 /hemato/ 
 /hemi/
 hemio3la. hemio3las. 
 /hemo/
+/hepato/   %%
+/hepta/    %%
+/hetero/   %%
 2al. 2ales.
-.hepta1e
 /hexa/ 
-/hidro/ 
-% ===
+/hidro/
+/holo/     %%
 /hiper/
 pe3r4e3mia
 hipe3r4i3cíne
@@ -678,6 +701,7 @@ hipe3r4o3xia
 /spano/            % (hi)spano
 /histo/
 /homo/
+/homeo/    %%
 /ibero/
 /icono/
 /.i2n2/
@@ -722,12 +746,13 @@ re3ini3cia re3iní3cia re3ini3ciá re3ini3cie
 .inú3til
 .inu3tiliz 
 /infra/
+/inmuno/   %%
 /.inter/
 .in3ter2e3sa  .in3ter2e3se  .in3ter2e3so
 .in3ter2e3sá .in3ter2e3sé .in3ter2e3só
 .de3s4in3ter2e3sa  .de3s4in3ter2e3se  .de3s4in3ter2e3so
 .de3s4in3ter2e3sá .de3s4in3ter2e3sé .de3s4in3ter2e3só
-4n3te3ri3n 4n4te4r5i4nsu
+4n5te5ri3n 4n4te4r5i4nsu
 .in3te3r4rog
 .in3te3r4rupc .in3te3r4rupt .in3te3r4rump
 inter4és
@@ -737,9 +762,16 @@ inter5ins5t
 inte5r4regno
 inte3r4ior4
 4i4ano. 4i4ana. 4i4anos. 4i4anas. 
+% ===
 /intra/
+/islamo/   %%
+/italo/    %%
 /iso/ 
 /kilo/ 
+/leuco/    %%
+/linfo/    %%
+/lipo/     %%
+/lito/     %%
 /macro/ 
 mal2 ma4l3h .ma4l3e4du mal3b mal3c mal3d mal3f mal3g
 mal3m mal3p mal3q mal3s mal3t mal3v
@@ -754,6 +786,8 @@ mal3m mal3p mal3q mal3s mal3t mal3v
 /megalo/ 
 /mega/
 /melano/
+/meso/     %%
+/meta/     %%
 /micro/
 /.mili/
 familia3ri ia5res.
@@ -764,26 +798,41 @@ mili4ar
 /mini/
 2os. 2o3so. 2o3sos. 2o3sa. 2o3sas. 2o3samente.
 mini4a5tur 
+/.mio/      %%
 /multi/
 /miria/
 /mono/
+/morfo/    %%
+/moto/     %%
 2i3co. 2i3cos. 2i3ca. 2i3cas. 
 /namo/                   % (di)namo
+/nano/     %%
 /narco/
 /necro/
+/nefro/    %%
 /neo/                    % (cra)neo
 3c2neor 
 /neto/                   % (mag)neto
+/neumo/    %%
 /norte/
 /octo/
 /octa/
 /oligo/
 /omni/
+/onco/     %%
+/onto/     %%
+/opto/     %%
+/ornito/   %%
+/orto/     %%
+orto4e3pía
+/osteo/    %%
 i2o. i2os. 
 /paleo/
+.pa4n1a4fri
 .pa4n1a4meri
+.pa4n1á4rab .pa4n1a4ráb .pa4n1a4rab
 .pa4n1europ
-.pa4n1afri
+.pa4n1islam .pa4n1islám
 .pa4n5hisp
 .pa4n1hel
 .pa4n1ópti
@@ -792,7 +841,11 @@ para2is. aí5so. aí5sos.
 para4íso
 para4ulata
 /penta/
+% /.peri/   %%
+/peta/     %%
+/pico/     %%
 /piezo/
+/piro/     %%
 /pluri/
 /poli/
 poli4u3r
@@ -807,7 +860,9 @@ expoli4
 porta4e3ro
 /.pos2t2/
 .pos3tin .pos3tín
+.pos4t3ind
 pos3ta. pos3tas. 
+pos4t5s
 s3te. s3tes. s3tal. s3ta3les.
 s3ti3lla. s3ti3llas. s3ti3llón. s3ti3llones.
 s3tor. s3tora. s3toras. s3tores. 
@@ -820,10 +875,9 @@ s3tor. s3tora. s3toras. s3tores.
 .pos3ti3za .pos3ti3zo
 .pos3tu3ra
 .pos3tu3la .pos3tu3lá .pos3tu3le .pos3tu3lé
-.post3elec
-.post3impr
-.post3ind
-.post3ope
+.pos2t3elec
+.pos2t3impr
+.pos2t3ope
 .pos2t3rev
 .pos2t3rom
 .pre2a2 .pre2e2 .pre2i2 .pre2o2 .pre2u2
@@ -841,7 +895,10 @@ pre3opin
 /psico/
 3p2sic
 3p2siq
+/ptero/    %%
 /quete/                  % (re)quete
+/quimio/   %%
+/quiro/    %%
 /radio/
 /ranco/                  % (f)ranco
 .re2a2 .re3e4 .re2i2 .re2o2 .re2u2
@@ -874,12 +931,16 @@ ea3cio. ea3cios. ea3cia. ea3cias.
 .re3oj
 .re3orga
 .re3unt
+/rete/     %%
 /rmano/                  % (ge)rmano
 /retro/
 /romo/                   % (c)romo
+/salva/
+/seleno/   %%
 /semi/
 i2a. i2as.
 2ótic emi2o2 
+/servo/    %%
 /2seudo/                  % (p)seudo
 o2os.
 .so3a4s                  % soasar
@@ -934,13 +995,15 @@ super4ior
 pe5r4ante
 perpon5d6r 
 /supra/ 
-sup6ra %
+sup6ra
 /talmo/                  % (of)talmo
 /tele/
+/tecno/    %%
 4ósteo. 4ósteos.
 .tele1imp
 .tele1obj
 .tele4o3lót
+/tera/     %%
 /termo/
 /tetra/
 /topo/
@@ -969,26 +1032,28 @@ tran3si3tori
 tran3subst tran3sust
 .tri1ó2x
 /tropo/                  % (ant)ropo
+/turbo/    %%
 /ultra/
 /vice/
 /video/
 /xeno/
+/xero/     %%
+/xilo/     %%
 /zoo/
 wa3s4h
 3hablante
 3habiente
 3aficionad
-%.pan1esl
-%.pan1isl
+3american
+3electr 3eléctr di4elec
+5industr
+5islámi 5islami
+%
 % pos (impedir) =
 % tri = (faltan ex)
 % uni = (faltan excep)
 %conjugar ir
-% /miriá/
-% des3ojar/VX
 % desistir dejar
-% desoír/QWY
-% des3escombrar/VX
 % desenvoltu  evitar
 % desenvolver
 % de3senlace % evitar
