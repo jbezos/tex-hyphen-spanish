@@ -30,10 +30,12 @@ tz3s4ch
 % Conjugaciones verbales
 % ======================
 %
-% -aer  aero deca
-% ieron etc. no en aer.
-% iera iese no en aer
-% no en aer (el acento!) (contrá)eme ete ele elo ela enos elos  
+% -aer  (aero, deca[er], contra[er])
+% Este grupo no contiene las terminaciones ieron, etc., iera, iese
+% (es decayera, contrajera).
+% Tampoco, porque el prefijo no tiene acento y las formas verbales sí:
+% [contrá]eme, ete, ele, elo, ela, enos, elos.
+%
 4i3go. 4es. 4és 4e. 4e3mos. 4éis. 4en.
 4ía. 4ías. 4ía3mos. 4íais. 4ían.
 4í. 4í4s3te. 4í4s3tes. 4í3tes. 4í3mos. 4ís3teis.
@@ -182,490 +184,345 @@ e5r4a3dor. e5r4a3dora. e5r4a3dores. e5r4a3doras.
 %
 .a2                      % a- (prevent)
 /.abre/
-/.acro/     %%
+/.acro/
 /acto/                   % (gal)acto, (l)acto
-/adeno/    %%
-4i3ditis.
+/adeno/
+   4i3ditis.
 /aero/
 /afro/
-/agro/     %%
+/agro/
 % /an/                   % No realmente productivo, solo especiales
-.an3e2pigr
-.an3a2lcoh
-.an3amnio
-.an3i4so .an3i4só
-.an3aero
-/andro/    %%
+   .an3e2pigr
+   .an3a2lcoh
+   .an3amnio
+   .an3i4so .an3i4só
+   .an3aero
+/andro/
 /anfi/
+   4o3xo. 4o3xos.
 /anglo/
 /ante/
-.ante2o3je
-acante2
-4ísmo. 4ísmos. 4ísta. 4ístas.
-4ístico. 4ísticos. 4ística. 4ísticas.
-pante4o3n
-.anteo3nes
-mante4a
-e4a3miento
-e4ándo
-tras3antea
-2huelo. 2huela. 2huelos. 2huelas. 
+   .ante2o3je
+   acante2
+   4ísmo. 4ísmos. 4ísta. 4ístas.
+   4ístico. 4ísticos. 4ística. 4ísticas.
+   pante4o3n
+   .anteo3nes
+   mante4a
+   e4a3miento
+   e4ándo
+   tras3antea
+   2huelo. 2huela. 2huelos. 2huelas. 
 /.anti/
-/apico/    %%
-ti2o3qu ti2o3co 
+   ti2o3qu ti2o3co 
+/apico/
 /archi/
-/.atto/     %%
-/audio/    %%
+/.atto/ 
+/audio/
 /austro/   %%
 /auto/
-.bi1anual
-.bi1aur
-.bi1ox
-.bi1ó2x
-.bi1un
+% /bi/
+   .bi1anual
+   .bi1aur
+   .bi1ox
+   .bi1ó2x
+   .bi1un
+   bi1u2ní 
 /biblio/
 bien2 bien3h bien3v bien3q bien3m bien3t
 b4ien3do. .su3b4ien b4ien3das. 
-.bie4n3and
-.bie4n3a4pa
-.bie4n3a4ve
-.bie4n3est
-.bie4n3int
-.bie4n3o4lie
+   .bie4n3and
+   .bie4n3a4pa
+   .bie4n3a4ve
+   .bie4n3est
+   .bie4n3int
+   .bie4n3o4lie
 /bio/
-bi1u2ní 
 /busca/
 /cardio/
 /cefalo/
 /centi/
-% /cian/     %%
-cian1h
-/ciano/    %%
-/ciber/    %%
-centi5área 
+% /cian/ 
+   cian1h     % Solo este caso especial
+/ciano/
+/ciber/
+   centi5área 
 /ciclo/
-o4i3dea. o4i3deas. o4i3dal. o4i3dales. 
-4o2i3de. 4o2i3des.  4i2dal. 4i2dales.
-4i3deo. 4i3deos. 
-% /.cis/      %%
+   o4i3dea. o4i3deas. o4i3dal. o4i3dales. 
+   4o2i3de. 4o2i3des.  4i2dal. 4i2dales.
+   4i3deo. 4i3deos. 
+% /.cis/  
 /cito/
 /clepto/   %%
 /cnico/                  % (té)cnico
-%?.co?
-.co1h
-.co2a2 .co2e2 .co2i2 .co3o4 .co2u2      % Note coo
-.co2á2 .co2é2 .co2í2 .co2ó2 .co2ú2
-.co3acree
-.coá3gul
-.co3agen
-.coa3gul
-.coa3lic
-.co3arrend
-.co3auto
-.co3edic
-.co3edit
-.co3educ
-.co3efici
-.coe3tá
-.co3exis
-.co6hib
-.co4het
-.co3imput
-.coi3to
-.co4o3per
-.co4o3pér
-.co4orden
-.co4ordin
-.co4ordín
-.co4opt
-.co4ópt
-.co2nurb 
-cou3lomb
+% /.co/
+   .co1h
+   .co2a2 .co2e2 .co2i2 .co3o4 .co2u2      % Note coo
+   .co2á2 .co2é2 .co2í2 .co2ó2 .co2ú2
+   .co3acree
+   .coá3gul
+   .co3agen
+   .coa3gul
+   .coa3lic
+   .co3arrend
+   .co3auto
+   .co3edic
+   .co3edit
+   .co3educ
+   .co3efici
+   .coe3tá
+   .co3exis
+   .co6hib
+   .co4het
+   .co3imput
+   .coi3to
+   .co4o3per
+   .co4o3pér
+   .co4orden
+   .co4ordin
+   .co4ordín
+   .co4opt
+   .co4ópt
+   .co2nurb 
+   cou3lomb
 /corta/
-/cosmo/    %%
-/crio/     %%
+/cosmo/
+/crio/ 
 /cripto/
 /crono/
-/contra/                 % -aer =
+/contra/
 % /cuadri/   %%
 /cuadru/   %%
-/cuasi/    %%
-/deca/                   % deca, (en)deca, (do)deca, -aer
-4e3dro. 4e3dros. 4é3drico. 4é3dricos. 4é3drica. 
-4é3dricas.
-4í3ble. 4í3bles.
-/dento/    %%
+/cuasi/
+/deca/                   % deca, (en)deca, (do)deca
+   4e3dro. 4e3dros. 4é3drico. 4é3dricos. 4é3drica. 
+   4é3dricas.
+   4í3ble. 4í3bles.
+/dento/
 /dermato/  %%
-/dermo/    %%
-/.de2s/
-%%%%%%%%%%%%% des1h
-deca2i3mient
-3sa. 3sas.
-*órde
-*orde
-*abast
-*aboll
-*aboto
-*abr
-des4a3brid
-*abroch
-*aceit
-*aceler
-desa3cert
-desa3ciert
-*acobar
-*acomod
-*acomp
-*acons
-*acopl
-*acorr
-*acostum
-*acot
-desa3craliz
-*acredit
-*activ
-*acuart
-*aderez
-*adeud
-*adorar
-*adormec
-*adorn
-*advert
-*aferr 
-*afic
-*afil
-*afin
-*afor
-*agu
-desa3gú
-desa3garr
-*agraci
-*agrad
-*agravi
-*agreg
-*agrup
-des4a3guis
-*aherr
-*ahij
-*ajust
-*alagar
-*alent
-*alfom
-*alfor
-*alien
-*a4line
-*a4liné
-*aliñ
-desa3liv
-*alm
-*almid
-*aloj
-*alquil
-*alter
-*alumbr
-desa3marr
-desa3mobl
-*amold
-*amort
-*amuebl
-*ampa
-*and
-*angel
-de3sangr
-*anid
-*anim
-*aním
-*anud
-desa3pañ
-desa3pacib
-*apadr
-*apare
-*aparec
-*aparic
-*apeg
-*apercib
-*apes
-*aplic
-*apolill
-*apoy
-*aprend
-*apret
-*apriet
-*aprob
-*apropi
-*aprovech
-*arbol
-*aren
-*arm
-des4arme
-*arraig
-*arregl
-*arrend
-*arrim
-desa3rroll
-*arrop
-*arrug
-*articul
-*asent
-*asist
-*asn
-% desa3soseg
-% desa3sosieg
-*atenc
-*atend
-*atiend
-*atent
-desa3tin
-*atorn
-*atranc
-*autor
-*avis
-desa3yun
-desa3zón
-desa3zon
-*embal
-*embál
-*embar
-*embár
-*embarg
-*embols
-*emborr
-*embosc
-*embot
-*embrag
-*embrág
-*embrave
-*embráve
-*embroll
-*embróll
-*embruj
-*embrúj
-de3semej
-*empañ
-*empáñ
-*empac
-*empaquet
-*empaquét
-*emparej
-*emparéj
-*emparent
-*empat
-*empé
-*empedr
-*empeg
-*empeor
-*emperez
-*empern
-*emple
-*empolv
-*empotr
-*empoz
-*enam
-*encab
-*encad
-*encaj
-*encáj
-*encall
-*encáll
-*encam
-de3sencant
-*encap
-*encar
-*encár
-*ench
-*encl
-*enco
-*encr
-*encu
-*end
-de3senfad
-de3senfád
-*enfi
-*enfo
-*enfó
-de3senfren
-*enfund
-*enfur
-de3sengañ
-de3sengáñ
-*enganch
-*engar
-*engas
-*engom
-*engoz
-*engra
-*enhebr
-*enj
-*enlad
-*enlaz
-*enlo
-*enm
-*enr
-*ens
-*enta
-de3sentend
-de3sentien
-de3sentién
-*enter
-*entier
-*entiér
-*ento
-*entr
-*entu
-*envain
-de3senvolvim
-de3seo
-*eq
-de3s4erci
-de3s4ert
-de3s4ért
-*espa
-de3sesperac
-*esperanz
-*estabil
-*estim
-de3sider
-de3sidia
-de3sidio
-de3siert
-de3sign
-de3sigual
-de3silusi
-*imagin
-*iman
-*impon
-*impres
-*incent
-*inclin
-*incorp
-*incrust
-de3sinenc
-de3sinfec
-de3su3dar de3su3das de3su3dan
-*inflam
-*infl
-*inform
-*inhib
-*insect
-*instal
-ini3ci
-iní3ci
-de3s4integr
-de3s4inter  %%%%%%%%%%%%%%%%%%%%
-*intox
-*inver
-de3sisten
-de3isti
-*obedec
-*oblig
-*obstr
-de3socup
-*odor
-de3solac
-de3solad
-de3soll
-*orej
-*orient
-de3sortij
-*organi
-de3suell
-de3sonce
-*ovi
-*oxi
-*oye
-*oyé
-de3s4ubstan
-de3s4ustan
-de3s4oseg
-*ub4ic
-*unir
-*unier
-*unim 
-.diecio2 
+/dermo/
+% /.de2s/
+   .de2s1h
+   .de2s3a2 .de2se2 .de2si2 .de2so2 .de2su2     % Note desa
+   .de2s3á2 .de2sé2 .de2sí2 .de2só2 .de2sú2     % Note desá
+   deca2i3mient
+   3sa. 3sas.
+   *órde
+   *orde
+   % desa
+      de3s4a3brid
+      de3s4a3bor
+      de3s4a3craliz de3s4a3cralic
+      de3s4a3fia
+       de3s4a3fía de3s4a3fiá
+       de3s4a3fíe de3s4a3fié
+       de3s4a3fío de3s4a3fió
+      des5a4gua            % ?
+      de3s4ahuci de3s4áhuci
+      de3s4a3guis
+      des4ala des4ála      % des-alar, de-salar
+      de3s4a3liv
+      de3s4a3liniz de3s4a3liníz de3s4a3linic de3s4a3liníc
+      de3s4angr
+      de3s4angel
+      de3s4a3prensiv
+      de3s4a3rroll
+      desa4sa desa4se
+      des5a4tes           % ?
+      de3s4astr
+      de3s4a3yun
+      de3s4a3zón
+      de3s4a3zon
+   .des3em
+      de3s4e3meja
+       de3s4e3méja de3s4e3mejá
+       de3s4e3méje de3s4e3mejé
+       de3s4e3méjo de3s4e3mejó
+   .des3en
+      de3s4enfren de3s4enfrén
+   de3seo
+   de3se3cha de3sé3cha de3se3chá
+    de3se3ché de3se3che de3sé3che 
+    de3se3chó de3se3cho
+   *edif
+   *educ
+   *eduq
+   *eq
+   de3s4erci
+   de3s4ert
+   de3s4ért
+   *espa
+   de3sesperac
+   *esperanz
+   *espin
+   *espum
+   *estabil
+   *estaci
+   *estalin
+   *estim
+   *estres
+   *estruc
+   de3sider
+   de3sidia
+   *ideol
+   de3sidio
+   de3siert
+   de3sign
+   *igual
+   *iguál
+   *ilusion
+   *ilusión
+   *imagin
+   *iman
+   *impon
+   *impres
+   *incent
+   *inclin
+   *incorp
+   *incrust
+   de3si3nenc
+   de3si3nent
+   de3sinfec
+   de3su3dar de3su3das de3su3dan
+   *infart
+   *inflam
+   *infl
+   *inform
+   *inhib
+   *insect
+   *instal
+   ini3ci
+   iní3ci
+   de3s4integr
+   de3s4inter  %%%%%%%%%%%%%%%%%%%%
+   *intox
+   *intub
+   *inver
+   de3sisten
+   de3isti
+   *obedec
+   *obedez
+   *obedien
+   *oblig
+   *obstr
+   *ocup
+   *ocúp
+   *odor
+   de3solac
+   de3solad
+   de3soll
+   *oprim
+   *orej
+   *orill
+   *orient
+   de3sortij
+   *organi
+   *ornam
+   de3suell
+   de3sonce
+   *ova
+   *ovi
+   *oxi
+   *oye
+   *oyé
+   de3s4ubstan
+   de3s4ustan
+   de3s4oseg
+   *ub4ic
+   *ub4iq
+   *unir
+   *unier
+   *unim 
+   *uña
+   *uñá
+   *urbani
+%
+   .diecio2 
 /ecano/                  % (m)ecano
 /eco/
-/ecto/     %%            % + (l)ecto
+/ecto/             % + (l)ecto
 /ectro/                  % (esp)ectro, (el)ectro
 /.e2n2/
 %%%%%%%%%%%%%%%%%% .en1h
-.ene3mist .ene3míst
-.eno3jar
-.enu3mera .enu3merá
-.enu3mere
-.en3aceit
-.en3arb
-en1hebr
-.en2hest
-4emboca 
-4o3lógico. 4o3lógica. 4o3lógicos. 4o3lógicas.
-4o3lógicamente. 4o3logía. 4o3logías.
-4ó3logo. 4ó3loga. 4ó3logos. 4ó3logas. 
+   .ene3mist .ene3míst
+   .eno3jar
+   .enu3mera .enu3merá
+   .enu3mere
+   .en3aceit
+   .en3arb
+   en1hebr
+   .en2hest
+   4emboca 
+   4o3lógico. 4o3lógica. 4o3lógicos. 4o3lógicas.
+   4o3lógicamente. 4o3logía. 4o3logías.
+   4ó3logo. 4ó3loga. 4ó3logos. 4ó3logas. 
 /endo/
-/enea/     %%
+/enea/ 
 /entero/   %%
 /ento/                   % (ci)ento
 /entre/
 /esclero/  %%
 /estereo/  %%
-/etno/     %%
+/etno/ 
 /euco/                   % (l)euco
 /euro/                   % euro, (n)euro
 /.e2x2/
-%%%%%%%%%%%%%%%%% .ex1h
-.ex2hal .ex2hál
-.ex2haus
-.ex2hib .ex2híb
-.ex2hort .ex2hórt
-.ex2hum .ex2húm
-3gono. 3gonos. 3gonal. 3gonales.
-exá3men
-exá3ri
-exé3ge
-exó3ti
-exa3cerb
-exa3ger
-exa3min
-exe3cr
-exe3géti
-exe3quia
-exi3ja exi3já exí3ja
-exi3ge exí3ge
-exi3gi exi3gí
-exi3jo exí3jo
-3gua. 3guas. 3guo. 3guos.
-exi3lia exi3liá exí3lia
-exi3lie exi3lié exí3lie
-exi3lio exi3lió exí3lio
-exi3ma exi3má exí3ma
-exi3mi exi3mí exí3mi
-exi3me exi3mé exí3me
-exi3mo exi3mó exí3mo
-exi3tos
-exi3lar
-exo3ner
-exo3crin
-exo3tér
-exo3tic
-exo3tiq
-exo3tism
-exo3gami
-exo3gámi
-exu3ber
-exu3dar
-exu3dat
-exu3dac
+   %%%%%%%%%%%%%%%%% .ex1h
+   .ex2hal .ex2hál
+   .ex2haus
+   .ex2hib .ex2híb
+   .ex2hort .ex2hórt
+   .ex2hum .ex2húm
+   3gono. 3gonos. 3gonal. 3gonales.
+   exá3men
+   exá3ri
+   exé3ge
+   exó3ti
+   exa3cerb
+   exa3ger
+   exa3min
+   exe3cr
+   exe3géti
+   exe3quia
+   exi3ja exi3já exí3ja
+   exi3ge exí3ge
+   exi3gi exi3gí
+   exi3jo exí3jo
+   3gua. 3guas. 3guo. 3guos.
+   exi3lia exi3liá exí3lia
+   exi3lie exi3lié exí3lie
+   exi3lio exi3lió exí3lio
+   exi3ma exi3má exí3ma
+   exi3mi exi3mí exí3mi
+   exi3me exi3mé exí3me
+   exi3mo exi3mó exí3mo
+   exi3tos
+   exi3lar
+   exo3ner
+   exo3crin
+   exo3tér
+   exo3tic
+   exo3tiq
+   exo3tism
+   exo3gami
+   exo3gámi
+   exu3ber
+   exu3dar
+   exu3dat
+   exu3dac
 /extra/
-u4teri
-.cau5t
-.deu5t
-/femto/    %%
-/ferro/    %%
-/filo/     %%
-/fisio/    %%
-/fito/     %%
+   u4teri
+%
+   .cau5t
+   .deu5t
+/femto/
+/ferro/
+/filo/ 
+/fisio/
+/fito/ 
 /fono/ 
 /foto/ 
-/galo/     %%
+/galo/ 
 /gastero/  %%
 /gastro/ 
 /geo/
@@ -673,374 +530,412 @@ u4teri
 /gineco/   %%
 /giga/
 /gluco/
-/grafo/    %%
+/grafo/
 /guarda/
-/halo/     %%
+/halo/ 
 /hecto/ 
 /helico/   %%
 /helio/ 
 /hemato/ 
 /hemi/
-hemio3la. hemio3las. 
+   hemio3la. hemio3las. 
 /hemo/
 /hepato/   %%
-/hepta/    %%
+/hepta/
 /hetero/   %%
-2al. 2ales.
+   2al. 2ales.
 /hexa/ 
 /hidro/
-/holo/     %%
+/holo/ 
 /hiper/
-pe3r4e3mia
-hipe3r4i3cíne
-hipe3r4o3nimi
-hipe3r4o3ními
-hipe3r4ó3nimo
-hipe3r4o3xia
+   pe3r4e3mia
+   hipe3r4i3cíne
+   hipe3r4o3nimi
+   hipe3r4o3ními
+   hipe3r4ó3nimo
+   hipe3r4o3xia
 /hipo/
 /spano/            % (hi)spano
 /histo/
 /homo/
-/homeo/    %%
+/homeo/
 /ibero/
 /icono/
 /.i2n2/
-%%%%%%%%%%%%%%% .in1h
-in4hib in4híb
-in4hal in4hál
-in4hest in4hést
-in4hum in4húm
-in4hiest in4hiést
-in4herent in4hóspit
-in4hesi
-5humano 5humana 
-.in3abord
-.in3abord
-.in3abarc
-.in3acent
-.in3aguant
-.in3adapt
-.ina3movib
-.in3analiz
-.ina3nic
-.in3anim
-.iná3nim
-.in3apel
-.in3aplic
-.in3aprens
-.in3apreci
-.in3arrug
-.in3asist
-.iné3dit
-.in3efic
-.in3efici
-.in3eludi
-.ine3narr
-.in3exact
-ini3cia iní3cia ini3ciá ini3cie
-.rei3na
-re3ini3cia re3iní3cia re3ini3ciá re3ini3cie
-.ini3cuo .ini3cua
-.ino3cuo .ino3cua
-.ino3cula .ino3culá .ino3cule
-.inú3til
-.inu3tiliz 
+   %%%%%%%%%%%%%%% .in1h
+   in4hib in4híb
+   in4hal in4hál
+   in4hest in4hést
+   in4hum in4húm
+   in4hiest in4hiést
+   in4herent in4hóspit
+   in4hesi
+   5humano 5humana 
+   .in3abord
+   .in3abarc
+   .in3acent
+   .in3aguant
+   .in3adapt
+   .ina3movib
+   .in3analiz
+   .ina3nic
+   .in3anim
+   .iná3nim
+   .in3apel
+   .in3aplic
+   .in3aprens
+   .in3apreci
+   .in3arrug
+   .in3asist
+   .iné3dit
+   .in3efic
+   .in3efici
+   .in3eludi
+   .ine3narr
+   .in3exact
+   ini3cia iní3cia ini3ciá ini3cie
+   .rei3na
+   re3ini3cia re3iní3cia re3ini3ciá re3ini3cie
+   .ini3cuo .ini3cua
+   .ino3cuo .ino3cua
+   .ino3cula .ino3culá .ino3cule
+   .inú3til
+   .inu3tiliz 
 /infra/
 /inmuno/   %%
 /.inter/
-.in3ter2e3sa  .in3ter2e3se  .in3ter2e3so
-.in3ter2e3sá .in3ter2e3sé .in3ter2e3só
-.de3s4in3ter2e3sa  .de3s4in3ter2e3se  .de3s4in3ter2e3so
-.de3s4in3ter2e3sá .de3s4in3ter2e3sé .de3s4in3ter2e3só
-4n5te5ri3n 4n4te4r5i4nsu
-.in3te3r4rog
-.in3te3r4rupc .in3te3r4rupt .in3te3r4rump
-inter4és
-inte3r4esar
-inte4r4i4n4
-inter5ins5t
-inte5r4regno
-inte3r4ior4
-4i4ano. 4i4ana. 4i4anos. 4i4anas. 
-% ===
+   .in3ter2e3sa  .in3ter2e3se  .in3ter2e3so
+   .in3ter2e3sá .in3ter2e3sé .in3ter2e3só
+   .de3s4in3ter2e3sa  .de3s4in3ter2e3se  .de3s4in3ter2e3so
+   .de3s4in3ter2e3sá .de3s4in3ter2e3sé .de3s4in3ter2e3só
+   4n5te5ri3n 4n4te4r5i4nsu
+   .in3te3r4rog
+   .in3te3r4rupc .in3te3r4rupt .in3te3r4rump
+   inter4és
+   inte3r4esar
+   inte4r4i4n4
+   inter5ins5t
+   inte5r4regno
+   inte3r4ior4
+   4i4ano. 4i4ana. 4i4anos. 4i4anas. 
 /intra/
 /islamo/   %%
-/italo/    %%
+/italo/
 /iso/ 
 /kilo/ 
-/leuco/    %%
-/linfo/    %%
-/lipo/     %%
-/lito/     %%
+/leuco/
+/linfo/
+/lipo/ 
+/lito/ 
 /macro/ 
-mal2 ma4l3h .ma4l3e4du mal3b mal3c mal3d mal3f mal3g
-mal3m mal3p mal3q mal3s mal3t mal3v
-.mal1acon
-.mal1acos
-.mala1e
-.mal1andant
-.mal1andanz
-.mal1est
-.mal1int
+   mal2 ma4l3h .ma4l3e4du mal3b mal3c mal3d mal3f mal3g
+   mal3m mal3p mal3q mal3s mal3t mal3v
+   .mal1acon
+   .mal1acos
+   .mala1e
+   .mal1andant
+   .mal1andanz
+   .mal1est
+   .mal1int
 /maxi/ 
 /megalo/ 
 /mega/
 /melano/
-/meso/     %%
-/meta/     %%
+/meso/ 
+/meta/ 
 /micro/
 /.mili/
-familia3ri ia5res.
-amili6a
-a3rio a3ria
-li5área
-mili4ar
+   familia3ri ia5res.
+   amili6a
+   a3rio a3ria
+   li5área
+   mili4ar
 /mini/
-2os. 2o3so. 2o3sos. 2o3sa. 2o3sas. 2o3samente.
-mini4a5tur 
-/.mio/      %%
+   2os. 2o3so. 2o3sos. 2o3sa. 2o3sas. 2o3samente.
+   mini4a5tur 
+/.mio/  
 /multi/
 /miria/
 /mono/
-/morfo/    %%
-/moto/     %%
-2i3co. 2i3cos. 2i3ca. 2i3cas. 
+/morfo/
+/moto/ 
+   2i3co. 2i3cos. 2i3ca. 2i3cas. 
 /namo/                   % (di)namo
-/nano/     %%
+/nano/ 
 /narco/
 /necro/
-/nefro/    %%
+/nefro/
 /neo/                    % (cra)neo
-3c2neor 
+   3c2neor 
 /neto/                   % (mag)neto
-/neumo/    %%
+/neumo/
 /norte/
 /octo/
 /octa/
 /oligo/
 /omni/
-/onco/     %%
-/onto/     %%
-/opto/     %%
+/onco/ 
+/onto/ 
+/opto/ 
 /ornito/   %%
-/orto/     %%
-orto4e3pía
-/osteo/    %%
-i2o. i2os. 
+/orto/ 
+   orto4e3pía
+/osteo/
+   i2o. i2os. 
 /paleo/
-.pa4n1a4fri
-.pa4n1a4meri
-.pa4n1á4rab .pa4n1a4ráb .pa4n1a4rab
-.pa4n1europ
-.pa4n1islam .pa4n1islám
-.pa4n5hisp
-.pa4n1hel
-.pa4n1ópti
+% /pan/
+   .pa4n1a4fri
+   .pa4n1a4meri
+   .pa4n1á4rab .pa4n1a4ráb .pa4n1a4rab
+   .pa4n1europ
+   .pa4n1islam .pa4n1islám
+   .pa4n5hisp
+   .pa4n1hel
+   .pa4n1ópti
 /para/
-para2is. aí5so. aí5sos.
-para4íso
-para4ulata
+   para2is. aí5so. aí5sos.
+   para4íso
+   para4ulata
 /penta/
 % /.peri/   %%
-/peta/     %%
-/pico/     %%
+/peta/ 
+/pico/ 
 /piezo/
-/piro/     %%
+/piro/ 
 /pluri/
 /poli/
-poli4u3r
-poli4o5mie
-poli4arq poli4árq
-poli4éste
-poli4andr
-poli4antea
-poli4arca
-expoli4
+   poli4u3r
+   poli4o5mie
+   poli4arq poli4árq
+   poli4éste
+   poli4andr
+   poli4antea
+   poli4arca
+   expoli4
 /porta/
-porta4e3ro
+   porta4e3ro
 /.pos2t2/
-.pos3tin .pos3tín
-.pos4t3ind
-pos3ta. pos3tas. 
-pos4t5s
-s3te. s3tes. s3tal. s3ta3les.
-s3ti3lla. s3ti3llas. s3ti3llón. s3ti3llones.
-s3tor. s3tora. s3toras. s3tores. 
-.pos3tó3ni
-.pos3terg
-.pos3te3ri
-.pos3ti3go
-.pos3ti3la
-.pos3ti3ne
-.pos3ti3za .pos3ti3zo
-.pos3tu3ra
-.pos3tu3la .pos3tu3lá .pos3tu3le .pos3tu3lé
-.pos2t3elec
-.pos2t3impr
-.pos2t3ope
-.pos2t3rev
-.pos2t3rom
-.pre2a2 .pre2e2 .pre2i2 .pre2o2 .pre2u2
-.pre2á2 .pre2é2 .pre2í2 .pre2ó2 .pre2ú2
-.pre1h2 
-pre3elij pre3elig
-pre3exis
-pre3emin
-preo3cup preo2cúp
-pre3olí
-pre3opin
+po4s3impr
+   po4s3o2per
+   po4s3ind
+   .pos3tin .pos3tín
+   .pos4t3ind
+   pos3ta. pos3tas. 
+   pos4t5s
+   s3te. s3tes. s3tal. s3ta3les.
+   s3ti3lla. s3ti3llas. s3ti3llón. s3ti3llones.
+   s3tor. s3tora. s3toras. s3tores. 
+   .pos3tó3ni
+   .pos3terg
+   .pos3te3ri
+   .pos3ti3go
+   .pos3ti3la
+   .pos3ti3ne
+   .pos3ti3za .pos3ti3zo
+   .pos3tu3ra
+   .pos3tu3la .pos3tu3lá .pos3tu3le .pos3tu3lé
+   .pos2t3elec
+   .pos2t3impr
+   .pos2t3ope
+   .pos2t3rev
+   .pos2t3rom
+   .pos3taci
+   .pos3tar 
+   .pos3tear
+   .pos3te3me
+   .pos3ta3je
+   .pos3te3ler
+   .pos3te3ma
+   .pos3te3mi
+   .pos3te3río 
+   .pos3te3ta 
+   .pos3ti3le 
+   .pos3ti3llo
+   .pos3ti3lo
+   .pos3ti3lá
+   .pos3ti3lé
+   .pos3ti3ló
+   .posti3nudo
+   .posto3res 											
+   .pos3tu3lo 											
+   .pos3tu3ló            
+   .pos3tón
+   .pos3te3mas 
+   .pos3ti3cer
+   .pos3tism
+   .pos3tu3reo
+   .pos3te3lera
+   .pos3teo
+   .pos3ti3ll
+   .pos3tista
+% pre
+   .pre1h2 
+   .pre2a2 .pre1e2 .pre2i2 .pre2o2 .pre2u2   % Note pree
+   .pre2á2 .pre2é2 .pre2í2 .pre2ó2 .pre2ú2
+   pre3elij pre3elig
+   pre3exis
+   pre3emin
+   preo3cup preo2cúp
+   pre3olí
+   pre3opin
 /.pro2/
-.pro3abort
+   .pro3abort
 /proto/
 /psico/
-3p2sic
-3p2siq
-/ptero/    %%
+   3p2sic
+   3p2siq
+/ptero/
 /quete/                  % (re)quete
 /quimio/   %%
-/quiro/    %%
+/quiro/
 /radio/
 /ranco/                  % (f)ranco
-.re2a2 .re3e4 .re2i2 .re2o2 .re2u2
+%
+.re2a2 .re3e4 .re2i2 .re2o2 .re2u2         % Note ree
 .re2á2 .re2é2 .re2í2 .re2ó2 .re2ú2
-ea3cio. ea3cios. ea3cia. ea3cias. 
-.re3abr .re3ábr
-.re3afirm .re3afírm
-.re3ajust .rea3júst
-.rea3liza .rea3lizá .rea3líza
-.re3alim
-.rea3lism .rea3list
-.re3anim .re3aním
-.re3aparec
-.re3ubica .re3ubíca
-.reu3mati .reu3máti
-.re3unir .re3unír
-.re3usar .re3usár
-.re3utiliz .re3utilíz
-.re3a2eg
-.re3a2q
-.re3a2z
-.re3a2grup
-.re3i2m
-.re3inc
-.re3ing
-.re3ins
-.re3int
-.re3o2b
-.re3oc
-.re3oj
-.re3orga
-.re3unt
-/rete/     %%
+   ea3cio. ea3cios. ea3cia. ea3cias. 
+   .re3abr .re3ábr
+   .re3afirm .re3afírm
+   .re3ajust .rea3júst
+   .rea3liza .rea3lizá .rea3líza
+   .re3alim
+   .rea3lism .rea3list
+   .re3anim .re3aním
+   .re3aparec
+   .re3ubica .re3ubíca
+   .reu3mati .reu3máti
+   .re3unir .re3unír
+   .re3usar .re3usár
+   .re3utiliz .re3utilíz
+   .re3a2eg
+   .re3a2q
+   .re3a2z
+   .re3a2grup
+   .re3i2m
+   .re3inc
+   .re3ing
+   .re3ins
+   .re3int
+   .re3o2b
+   .re3oc
+   .re3oj
+   .re3orga
+   .re3unt
+/rete/ 
 /rmano/                  % (ge)rmano
 /retro/
 /romo/                   % (c)romo
 /salva/
 /seleno/   %%
 /semi/
-i2a. i2as.
-2ótic emi2o2 
-/servo/    %%
+   i2a. i2as.
+   2ótic emi2o2 
+/servo/
 /2seudo/                  % (p)seudo
-o2os.
-.so3a4s                  % soasar
+   o2os.
+   .so3a4s                  % soasar
 /sobre/ 
 /socio/
-a3rio. a3rios.
-3logía
-4ón. 4ones.
-4i4er.
-4o2ico. 4o2icos. 4o2ica. 4o2icas. 
+   a3rio. a3rios.
+   3logía
+   4ón. 4ones.
+   4i4er.
+%
+   4o2ico. 4o2icos. 4o2ica. 4o2icas. 
+% /sub/
 .su2b2a2 .su2b2e2 .su2b2i2 .su2b2o2 .su2b2u2
 .su2b2á2 .su2b2é2 .su2b2í2 .su2b2ó2 .su2b2ú2
-.sub2i3ll
-.sub2i3mien
-.sub3índ
-.sub3ími
-.su4b3ray
-.sub3aflue
-.sub3arr
-.sub3enten
-.sub3estim .sub3estím 
-.sub3ofici
-.sub3urba 
-.sub3alter
-.sub3insp
-.su3bién
-.su3bir
-.su3bam
-.su3bordin .su3bordín
-.sub3acuá
-.sub3espe
-.sub3esta
-.su3burbi
-.su4b5rein
-.su2d1a2fr
-.su2d1a2me
-.su2d1este
-su4d3oes
-.su2r1a2me
-.su2r1est
-.su2r1oes
+   .sub2i3ll
+   .sub2i3mien
+   .sub3índ
+   .sub3ími
+   .su4b3ray
+   .sub3aflue
+   .sub3arr
+   .sub3enten
+   .sub3estim .sub3estím 
+   .sub3ofici
+   .sub3urba 
+   .sub3alter
+   .sub3insp
+   .su3bién
+   .su3bir
+   .su3bam
+   .su3bordin .su3bordín
+   .sub3acuá
+   .sub3espe
+   .sub3esta
+   .su3burbi
+   .su4b5rein
+   .su2d1a2fr
+   .su2d1a2me
+   .su2d1este
+   su4d3oes
+   .su2r1a2me
+   .su2r1est
+   .su2r1oes
 /super/                  % -ar
 %% super5h
-ra5ra ra5rá ra5re ra5ré ra5rí ra5ro
-supe3r4a4r supe3r4á4r 
-supe3r4á3vit. supe3r4á3vits.
-super4ior
-4a3ción. 4a3ciones.
-4e3rior. 4e3riores. 4e3riora. 4e3rioras. 4e3riormente. 
-4e3rioridad. 4e3rioridades. 
-4e3r4a3ble. 4e3r4a3bles. 4e3r4a3blemente. 
-pe5r4ante
-perpon5d6r 
+   ra5ra ra5rá ra5re ra5ré ra5rí ra5ro
+   supe3r4a4r supe3r4á4r 
+   supe3r4á3vit. supe3r4á3vits.
+   super4ior
+   4a3ción. 4a3ciones.
+   4e3rior. 4e3riores. 4e3riora. 4e3rioras. 4e3riormente. 
+   4e3rioridad. 4e3rioridades. 
+   4e3r4a3ble. 4e3r4a3bles. 4e3r4a3blemente. 
+   pe5r4ante
+   perpon5d6r 
 /supra/ 
-sup6ra
+   sup6ra
 /talmo/                  % (of)talmo
 /tele/
-/tecno/    %%
-4ósteo. 4ósteos.
-.tele1imp
-.tele1obj
-.tele4o3lót
-/tera/     %%
+   4ósteo. 4ósteos.
+/tecno/
+% 
+   .tele1imp
+   .tele1obj
+   .tele4o3lót
+/tera/ 
 /termo/
 /tetra/
 /topo/
 /.tra2s/
-%%%%%%%%%%%%%% tras1h
-tras2hum
-% .tra2s1a2
-% .tra2s1o2
-.tra3s2o3ñ
+   %%%%%%%%%%%%%% tras1h
+   tras2hum
+   % .tra2s1a2
+   % .tra2s1o2
+   .tra3s2o3ñ
 /tran2s/
-tran2s1alp
-tran2s1and
-tran2s1atl
-tran2s1oce
-tran2s1ur
-tran3sacci
-tran3seún
-tran3se3xu
-tran3si3cion tran3si3ción
-tran3si3gi tran3si3gí tran3si3ge
-tran3si3ja tran3si3já tran3si3jo
-tran3sisto
-tran3si3ta tran3si3tá tran3si3te tran3si3té tran3si3to tran3si3tó  
-tran3si3tiv
-tran3si3tori
-tran3subst tran3sust
+   tran2s1alp
+   tran2s1and
+   tran2s1atl
+   tran2s1oce
+   tran2s1ur
+   tran3sacci
+   tran3seún
+   tran3se3xu
+   tran3si3cion tran3si3ción
+   tran3si3gi tran3si3gí tran3si3ge
+   tran3si3ja tran3si3já tran3si3jo
+   tran3sisto
+   tran3si3ta tran3si3tá tran3si3te tran3si3té tran3si3to tran3si3tó  
+   tran3si3tiv
+   tran3si3tori
+   tran3subst tran3sust
 .tri1ó2x
 /tropo/                  % (ant)ropo
-/turbo/    %%
+/turbo/
 /ultra/
 /vice/
 /video/
 /xeno/
-/xero/     %%
-/xilo/     %%
+/xero/ 
+/xilo/ 
 /zoo/
+%
 wa3s4h
+%
 3hablante
 3habiente
 3aficionad
@@ -1048,8 +943,8 @@ wa3s4h
 3electr 3eléctr di4elec
 5industr
 5islámi 5islami
+5ingenier
 %
-% pos (impedir) =
 % tri = (faltan ex)
 % uni = (faltan excep)
 %conjugar ir

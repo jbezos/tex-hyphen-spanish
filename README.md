@@ -1,6 +1,8 @@
 # tex-hyphen-spanish
 
 TeX hyphenation patterns for Spanish, v 4.8, development releases.
+They are based on rules, with the help of a diccionary of about
+700 000 words.
 
 Patrones de división de palabras en español para TeX y otros sistemas
 basados en el mismo algoritmo.
@@ -14,12 +16,13 @@ basados en el mismo algoritmo.
   que pueda resultar). Más adelante daré un archivo de excepciones con
   los casos más importantes de la norma tradicional, seguida todavía a
   menudo.
+
 **2019-09-04.** Comienzo a flexibilizar las particiones, ya que ahora,
   en cierto número de casos, se pueden encontrar series de 6 caracteres
   o más sin división («postureo» o «postillar», por ejemplo), lo que no
   parece razonable desde el punto de vista práctico. Véase la
   explicación más abajo sobre los principios de la división.
-  
+
 ### Contenido
 
 * `doc/division.pdf` is a draft of an article (in Spanish) explaining
@@ -32,6 +35,10 @@ basados en el mismo algoritmo.
   requires a file `spanish-words.txt` with a list of words (a sample
   with about 56 000 entries is supplied), one per line. You can
   (should) filter the words. Requires luatex 1.10.
+  
+The sources for the word list, created over 20 years and still
+expanding, include ispell, DRAE, Moliner, Fundéu and personal tools
+for web crawling, with manual selection of terms.
 
 Related project:
 * https://github.com/hyphenation/tex-hyphen
