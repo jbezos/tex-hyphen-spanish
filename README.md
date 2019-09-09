@@ -1,8 +1,12 @@
 # tex-hyphen-spanish
 
-TeX hyphenation patterns for Spanish, v 4.8, development releases.
-They are based on rules, with the help of a diccionary of about
-700 000 words.
+TeX hyphenation patterns for Spanish, v 4.8, development releases. They
+are based on rules, with the help of a diccionary of about 700 000
+words. Ths project is related to tex-hyphen, the collection of
+hyphenation patterns for TeX and other systems based on the same
+algorithm (Mozilla, Kindle, FOP, etc.):
+
+https://github.com/hyphenation/tex-hyphen
 
 Patrones de división de palabras en español para TeX y otros sistemas
 basados en el mismo algoritmo.
@@ -35,17 +39,10 @@ basados en el mismo algoritmo.
   requires a file `spanish-words.txt` with a list of words (a sample
   with about 56 000 entries is supplied), one per line. You can
   (should) filter the words. Requires luatex 1.10.
-  
+
 The sources for the word list, created over 20 years and still
 expanding, include ispell, DRAE, Moliner, Fundéu and personal tools
 for web crawling, with manual selection of terms.
-
-Related project:
-* https://github.com/hyphenation/tex-hyphen
-
-See also:
-* https://github.com/sbosio/rla-es/tree/master/separacion
-* https://ctan.org/pkg/mkpattern
 
 ### Principios básicos de la división
 
@@ -87,4 +84,9 @@ comparación, el ruso tiene unos 7200, y el francés unos 1400.
 
 No es el propósito de estos patrones el purismo. Por ello, la lista de
 palabras incluye cierto número de extranjerismos de uso común (e
-incluso algún que otro error frecuente), para tenerlos en cuenta.
+incluso algún que otro error frecuente, como «paraolímpico»), para
+tenerlos en cuenta.
+
+See also:
+* https://github.com/sbosio/rla-es/tree/master/separacion
+* https://ctan.org/pkg/mkpattern
