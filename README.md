@@ -1,10 +1,11 @@
 # tex-hyphen-spanish
 
-TeX hyphenation patterns for Spanish, v 4.8, development releases. They
+TeX hyphenation patterns for Spanish, v 5.0, development releases. They
 are based on rules, with the help of a diccionary of about 700 000
-words. Ths project is related to tex-hyphen, the collection of
-hyphenation patterns for TeX and other systems based on the same
-algorithm (Mozilla, Kindle, FOP, etc.):
+words, created over 20 years and still expanding,. This project is
+related to tex-hyphen, the collection of hyphenation patterns for TeX
+and other systems based on the same algorithm (Mozilla, Kindle, FOP,
+etc.):
 
 https://github.com/hyphenation/tex-hyphen
 
@@ -17,9 +18,7 @@ basados en el mismo algoritmo.
   y la actual básicamente consiste en que no se divide casi nunca ante
   ella (es decir, «chihuahua» o «menhir» son palabras indivisibles).
   Comienzo la adaptación a la nueva norma (por inconveniente
-  que pueda resultar). Más adelante daré un archivo de excepciones con
-  los casos más importantes de la norma tradicional, seguida todavía a
-  menudo.
+  que pueda resultar). 
 
 **2019-09-04.** Comienzo a flexibilizar las particiones, ya que ahora,
   en cierto número de casos, se pueden encontrar series de 6 caracteres
@@ -29,6 +28,8 @@ basados en el mismo algoritmo.
 
 ### Contenido
 
+* `tex/eshyphexh.tex` provides exceptions for traditional rules with adh,
+  exh, and a few more.
 * `doc/division.pdf` is a draft of an article (in Spanish) explaining
   the rules to be applied and how they are being translated into TeX in
   a unified set of patterns (somewhat outdated).
@@ -40,9 +41,11 @@ basados en el mismo algoritmo.
   with about 56 000 entries is supplied), one per line. You can
   (should) filter the words. Requires luatex 1.10.
 
-The sources for the word list, created over 20 years and still
-expanding, include ispell, DRAE, Moliner, Fundéu and personal tools
-for web crawling, with manual selection of terms.
+The sources for the word list include
+[ispell](https://www.cs.hmc.edu/~geoff/ispell.html),
+[DRAE-DLE](https://dle.rae.es/), Moliner,
+[Fundéu](https://www.fundeu.es/) and personal tools for web crawling,
+with manual selection of terms.
 
 ### Principios básicos de la división
 

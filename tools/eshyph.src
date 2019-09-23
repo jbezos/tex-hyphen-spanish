@@ -1,6 +1,8 @@
-% v 4.7 License MIT/X11. See eshyph-make.lua
+% v 5.0 License MIT/X11. See eshyph-make.lua
 san4c5t
 plan4c5t
+com4p3t
+prom4p3t
 %
 o1eu2
 a1ae2
@@ -178,7 +180,7 @@ e5r4a3dor. e5r4a3dora. e5r4a3dores. e5r4a3doras.
 % ==============================
 %
 % Con prefijos damos por hecho que Xh se divide siempre. Estas
-% combinaciones sin división apenas se dan mas que en voces de origen
+% combinaciones sin división apenas se dan más que en voces de origen
 % latino, o de nombres propios modernos, es decir, una cantidad
 % limitada y poco abierta, así que entrarían como excepciones.
 %
@@ -251,9 +253,6 @@ bien2
 /ciber/
    centi5área 
 /ciclo/
-   o4i3dea. o4i3deas. o4i3dal. o4i3dales. 
-   4o2i3de. 4o2i3des.  4i2dal. 4i2dales.
-   4i3deo. 4i3deos. 
 % /.cis/  
 /cito/
 /clepto/   %%
@@ -280,6 +279,10 @@ bien2
    .coe3tá
    .co3exis
    .co6hib
+   .co4hech
+   .co4hesi
+   .co4heso
+   .co4herent
    .co4het
    .co3imput
    .coi3to
@@ -302,10 +305,7 @@ bien2
 % /cuadri/   %%
 /cuadru/   %%
 /cuasi/
-/deca/                   % deca, (en)deca, (do)deca
-   4e3dro. 4e3dros. 4é3drico. 4é3dricos. 4é3drica. 
-   4é3dricas.
-   4í3ble. 4í3bles.
+/deca/         % eg, deca, (en)deca, (do)deca
 /dento/
 /dermato/  %%
 /dermo/
@@ -346,6 +346,7 @@ bien2
        de3s4e3méja de3s4e3mejá
        de3s4e3meje de3s4e3méje de3s4e3mejé
        de3s4e3mejo de3s4e3méjo de3s4e3mejó
+      de3s4empeñ de3s4empéñ 
    .des3en
       de3s4enfren de3s4enfrén
    de3seo de3sea
@@ -455,7 +456,7 @@ bien2
    *uñá
    *urbani
 %
-   .diecio2 
+.diecio2 .diecio3ch
 /ecano/                  % (m)ecano
 /eco/
 /ecto/             % + (l)ecto
@@ -594,7 +595,6 @@ bien2
    in4hiest in4hiést
    in4herent in4hóspit
    in4hesi
-   5humano 5humana 
    .in3abarc
    .in3abord
    .in3acent
@@ -603,9 +603,11 @@ bien2
    .in3adopt
    .in3aguant
    .in3alámb
+   .in3alien
    .in3analiz
    .in3anim
    .in3apagab
+   .in3afect
    .in3apel
    .in3aplaz
    .in3aplic
@@ -697,7 +699,7 @@ bien2
    familia3ri ia5res.
    amili6a
    a3rio a3ria
-   li5área
+   li5á4rea         % mili, kili, quili
    mili4ar
 /mini/
    2os. 2o3so. 2o3sos. 2o3sa. 2o3sas. 2o3samente.
@@ -708,7 +710,6 @@ bien2
 /mono/
 /morfo/
 /moto/ 
-   2i3co. 2i3cos. 2i3ca. 2i3cas. 
 /namo/                   % (di)namo
 /nano/ 
 /narco/
@@ -730,7 +731,6 @@ bien2
 /orto/ 
    orto4e3pía
 /osteo/
-   i2o. i2os. 
 /paleo/
 % /pan/
    .pa4n1a4fri
@@ -878,9 +878,6 @@ po4s3impr
    .re3utiliz .re3utilíz
    .re3a2eg
    .re3a2q
-   .re3ama
-     .re3áma .re3amá .re3ame .re3áme
-     .re3amé .re3amo .re3ámo .re3amó
    .re3a2z
    .re3asum .re3asúm
    .re3a2grup
@@ -897,7 +894,7 @@ po4s3impr
    .re3orient
    .rei3vind
    .re3oc
-   .re3oj
+   .re4o3j
    .re3orga
    .re3unt
    .reu3ma
@@ -915,6 +912,7 @@ po4s3impr
    o2os.
    .so3a4s                  % soasar
 /sobre/ 
+  sobre3a4sa sobre3a4sas
 /socio/
    4a3rio. 4a3rios. 4a3ria. 4a3rias.
    3logía
@@ -925,7 +923,6 @@ po4s3impr
 /.su2b2/
    .sub3acuát
    .subi3ll
-   .subi3mien
    .su3bi3da .su3bi3dor .su3bi3do .su3bi3dón
    .su3basta .su3básta .su3bastá .su3baste .su3básté .su3basto .su3bástó
    .sub3índ
@@ -956,7 +953,7 @@ po4s3impr
    .sub3insp
    .sub3intenden
    .su3bir .su3bír
-     .su3bién .su3bimien
+     .su3bién .su3bi3mien
      .su3bier .su3bies
    .su2r1est
    .su2r1oes
@@ -1040,9 +1037,25 @@ wa3s4h
 3grafo. 3grafa. 3grafos. 3grafas.
 3grafía. 3grafías.
 %
+% eg, cicloide:
+o4i3dea. o4i3deas. o4i3dal. o4i3dales. 
+4o2i3de. 4o2i3des.  4i2dal. 4i2dales.
+4i3deo. 4i3deos. 
+%
+i2o. i2os. 
+% 
+% eg, motoico:
+2i3co. 2i3cos. 2i3ca. 2i3cas. 
+%
+% eg, decaedro
+4e3dro. 4e3dros. 4é3drico. 4é3dricos. 4é3drica. 
+4é3dricas.
+%
+4í3ble. 4í3bles.
 %
 3hablante
 3habiente
+5humano 5humana 
 3a4ficionad
 3a4merican su2d3a4merican su2r3a4merican 
 3e4lectr 3e4léctr di4e5lec di4e5léc

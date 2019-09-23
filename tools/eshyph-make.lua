@@ -2,12 +2,12 @@
 
 -- GUIONIZADO DE PALABRAS
 -- ~~~~~~~~~~~~~~~~~~~~~
--- v 4.7
+-- v 5.0
 --
 -- License: MIT/X11
 --
 -- Copyright (c) 1993, 1997 Javier Bezos
--- Copyright (c) 2001-2015 Javier Bezos and CervanTeX
+-- Copyright (c) 2001-2019 Javier Bezos and CervanTeX
 --
 -- Permission is hereby granted, free of charge, to any person obtaining a copy
 -- of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@
 --
 -- For further info, bug reports and comments:
 --
---       http://www.tex-tipografia.com/spanish_hyphen.html
+--     https://github.com/jbezos/tex-hyphen-spanish
 
 ----------
 
