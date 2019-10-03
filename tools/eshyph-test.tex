@@ -5,73 +5,109 @@
 
 \documentclass{article}
 
+{\catcode`\%=12 \gdef\%{%}}
+
+% First, the customizable part
 % ==========
 
+\def\vow{aeiouáéíóú}
+\def\con{bcdfghjklmnpqrstvwxyz}
+
+\def\filter{s$}
 % \def\filter{trans[aeiou]}
 % \def\filter{^ps}
-\def\filter{s$}
 
+\def\leftfilter{}
+% \def\leftfilter{\%-.\%-}  % eg, -.-
+% \def\leftfilter{^.\%-}  % eg, .-
+% \def\leftfilter{\%-.\%-}  % eg, -.
+% \def\leftfilter{\%-[h\vow]}  % eg, -a
+% \def\leftfilter{[^-][^-][^-][^-][^-][^-]+}
+
+% ============
+
+% \chardef\showall=0     % solo distintos
+\chardef\showall=1     % distintos y coincidentes
 % ==========
 
 \newlanguage\left
 \language\left
-\righthyphenmin1
 \lefthyphenmin1
+\righthyphenmin1
 
 \input{hyph-es.tex}
 
 \newlanguage\right
 \language\right
-\righthyphenmin1
 \lefthyphenmin1
+\righthyphenmin1
 
 \input{hyphen-es-base.tex}
 
 % ==========
+% Now the code to compare and show the hyphenated words
+% ==========
 
 \directlua{
+
+  % Perhaps the main drawback of lua (and a huge one) is it doesn't
+  % understand Unicode. As I'm just comparing strings with a few accented
+  % letters, here is a fast dirty trick. 195 is the prefix in utf-8,
+  % and I just remove it.
+
+  function tosingle(s)
+    s = s:gsub(string.char(195), '')
+    return s
+  end
+
   function test (head)
     lang.hyphenate(head)
-    texio.write_nl('====')
     texio.write_nl('')
     local right = ''
     local left = ''
     for item in node.traverse(head) do
-      if item.id == node.id'glyph' then
-        right = right .. unicode.utf8.char(item.char)
-      elseif item.id == node.id'glue' then
+      if item.id == node.id'glyph' and item.char == 0x2a then % *
         left = right
         right = ''
+      elseif item.id == node.id'glyph' then
+        right = right .. unicode.utf8.char(item.char)
+      elseif item.id == node.id'glue' then
+        right = right .. ' '
       elseif item.id == node.id'disc' then
         right = right .. '-'
       end
     end
-    if left == right then
-      % texio.write('== ' .. left .. '   ' .. right)
-    else
-      texio.write('<> ' .. left .. '   ' .. right)
+    % texio.write_nl(left)
+    ql = tosingle(left)
+    qf = tosingle('\leftfilter')
+    if ql:find(qf) then
+      if left == right then
+        \ifcase\showall\or
+          texio.write('.. ' .. left .. '   ' .. right)
+        \fi
+      else
+        texio.write('@@ ' .. left .. '   ' .. right)
+      end
     end
     return head
   end
   luatexbase.add_to_callback('hyphenate',
-  test,
-  'Hyphen.hyphenate')
+                             test,
+                             'Hyphen.hyphenate')
   }
 
 \begin{document}
 
-\def\p#1{%
-  \setbox0\vbox{%
-    \language\left#1%
-    \hskip1em
-    \language\right#1}}
+\def\p#1{\setbox0\vbox{\language\left#1*\language\right#1}}
 
 \message{^^J*******************^^J}
 
 \directlua{
   local words = io.open('spanish-words.txt')
   for w in words:lines() do
-    if w:find('\filter') then
+    qw = tosingle(w)
+    qf = tosingle('\filter')
+    if qw:find(qf) then
       tex.print('\string\\p{' .. w .. '}')
     end
   end
